@@ -1,3 +1,7 @@
+# https://github.com/sunandrew057/lab11-HO-AS.git
+# Partner 1: Andrew Sun
+# Partner 2: Hope Ong
+
 import unittest
 from calculator import *
 
