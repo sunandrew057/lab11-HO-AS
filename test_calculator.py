@@ -16,9 +16,9 @@ class TestCalculator(unittest.TestCase):
 
     ######## Partner 1
     def test_multiply(self): # 3 assertions
-        self.assertEqual(mul(-3 * 3), -9)
-        self.assertEqual(mul(0 * 5), 0)
-        self.assertEqual(mul(5 * 2), 10)
+        self.assertEqual(mul(-3, 3), -9)
+        self.assertEqual(mul(0, 5), 0)
+        self.assertEqual(mul(5, 2), 10)
 
     def test_divide(self): # 3 assertions
         self.assertAlmostEqual(div(5, 2), 0.4)
