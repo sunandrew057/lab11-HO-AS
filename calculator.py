@@ -11,12 +11,9 @@ One function per operation, in order.
 import math
 
 def square_root(a):
-    try:
-        if a < 0:
-            raise ValueError
-        return math.sqrt(a)
-    except ValueError:
-        return "Cannot take square root of negative"
+    if a < 0:
+        raise ValueError
+    return math.sqrt(a)
 
 def hypotenuse(a, b):
     return math.hypot(a, b)
@@ -39,12 +36,9 @@ def div(a, b):
         return("Cannot divide by 0")
 
 def logarithm(a, b):
-    try:
-        if a < 2:
-            raise ValueError
-        return math.log(a, b)
-    except ValueError:
-        return "Can't take logarithm base less than 2"
+    if a < 2:
+        raise ValueError
+    return math.log(a, b)
 
 def exp(a, b):
     return a**b
