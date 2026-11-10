@@ -11,11 +11,15 @@ class TestCalculator(unittest.TestCase):
     # ##########################
 
     ######## Partner 1
-    # def test_multiply(self): # 3 assertions
-    #     fill in code
+    def test_multiply(self): # 3 assertions
+        self.assertEqual(mul(-3 * 3), -9)
+        self.assertEqual(mul(0 * 5), 0)
+        self.assertEqual(mul(5 * 2), 10)
 
-    # def test_divide(self): # 3 assertions
-    #     fill in code
+    def test_divide(self): # 3 assertions
+        self.assertAlmostEqual(div(5, 2), 0.4)
+        self.assertAlmostEqual(div(4, 2), 0.5)
+        self.assertAlmostEqual(div(-3, 6), -2)
     # ##########################
 
     ######## Partner 2
