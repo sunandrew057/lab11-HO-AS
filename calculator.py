@@ -17,16 +17,16 @@ def square_root(a):
 def hypotenuse(a, b):
     return math.hypot(a, b)
 
-def add(a, b): 
+def add(a, b):
     return a + b
 
 def subtract(a, b):
     return a - b
 
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
-def divide(a, b):
+def div(a, b):
     try:
         if a == 0:
             raise ZeroDivisionError
@@ -42,5 +42,5 @@ def logarithm(a, b):
     except ValueError:
         return "Can't take logarithm base less than 2"
 
-def exponent(a, b):
+def exp(a, b):
     return a**b
