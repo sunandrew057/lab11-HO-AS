@@ -1,7 +1,7 @@
 
 #Github link: https://github.com/sunandrew057/lab11-HO-AS/tree/main
-#Partner 2: Hope
-#Partner 1: Andrew
+#Partner 2: Hope Ong
+#Partner 1: Andrew Sun
 
 import unittest
 import math
