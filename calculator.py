@@ -1,15 +1,12 @@
-#Github link: https://github.com/sunandrew057/lab11-HO-AS/tree/main
-#Partner 2: Hope Ong
-#Partner 1: Andrew Sun
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-
 import math
 
+<<<<<<< HEAD
 def add(a, b):
     return a + b
 
