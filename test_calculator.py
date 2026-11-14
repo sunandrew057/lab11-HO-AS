@@ -1,8 +1,6 @@
-
 #Github link: https://github.com/sunandrew057/lab11-HO-AS/tree/main
 #Partner 2: Hope Ong
 #Partner 1: Andrew Sun
-
 
 import unittest
 import math
@@ -17,8 +15,6 @@ class TestCalculator(unittest.TestCase):
     def test_subtract(self): # 3 assertions
         #return unittest.TestCase.sub(self)
         self.assertEqual(subtract(10, 4), 6)
-    # def test_subtract(self): # 3 assertions
-    #     fill in code
     # ##########################
 
     ######## Partner 1
@@ -50,8 +46,10 @@ class TestCalculator(unittest.TestCase):
             logarithm(1, 8)
 
     # def test_log_invalid_base(self): # 1 assertion
-    #     # use same technique from test_divide_by_zero
-    #     fill in code
+    #     use same technique from test_divide_by_zero
+        #     fill in code
+        with self.assertRaises(ValueError):
+            logarithm(1, 8)
     # ##########################
     
     ######## Partner 1
