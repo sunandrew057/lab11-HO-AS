@@ -38,6 +38,8 @@ class TestCalculator(unittest.TestCase):
 
     def test_logarithm(self): # 3 assertions
         self.assertAlmostEqual(logarithm(2, 8), 3)
+        self.assertAlmostEqual(logarithm(3, 6), 1.6309298)
+        self.assertAlmostEqual(logarithm(5, 3), 0.6826062)
 
     def test_log_invalid_base(self): # 1 assertion
     #     use same technique from test_divide_by_zero
